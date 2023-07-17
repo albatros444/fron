@@ -1,0 +1,41 @@
+@import "globals";
+@import "footer";
+
+.background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  height: 497px;
+  width: 322px;
+  border-radius: 16px;
+  background-color: white;
+  &_imageSection {
+    padding: 15px;
+    padding-bottom: 0px;
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+  &_textSection {
+    padding: 33px;
+    padding-top: 20px;
+    text-align: center;
+    h2 {
+      margin-top: 0;
+      color: hsl(218, 44%, 22%);
+      margin-bottom: 15px;
+    }
+    p {
+      color: hsl(220, 15%, 55%);
+      //   line-height: 1.2;
+    }
+  }
+}
+
+////90
